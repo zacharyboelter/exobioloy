@@ -1,0 +1,24 @@
+{
+  "name": "exobioloy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacharyboelter/exobioloy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zacharyboelter/exobioloy/issues"
+  },
+  "homepage": "https://github.com/zacharyboelter/exobioloy#readme",
+  "dependencies": {
+    "ejc": "^1.0.4",
+    "express": "^4.17.1"
+  }
+}
