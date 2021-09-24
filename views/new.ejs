@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/skeleton.css">
+    <title>New Scientist</title>
+</head>
+
+<body>
+    <div class="constainer">
+        <h1>New Scientist</h1>
+        <!--  NOTE: action will be the route, method will be the HTTP verb-->
+        <!-- method can only be POST or GET -->
+        <!-- have to have name set to something -->
+        <form action='/planets' method="POST">
+            <input type="text" name="name" placeholder="Name" /><br />
+            <input type="text" name="description" placeholder="Description" /><br />
+            <input type="text" name="specialty" placeholder="Specialty" /><br />
+            <br />
+            <input type="submit" value="Add Scientist" />
+        </form>
+    </div>
+</body>
+
+</html>
